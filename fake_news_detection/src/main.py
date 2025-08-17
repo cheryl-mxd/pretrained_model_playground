@@ -352,7 +352,6 @@ def generate_final_report(baseline_results=None, bert_results=None):
     
     report.append("\n### 2. Baseline Models")
     report.append("- Logistic Regression")
-    report.append("- Naive Bayes")
     report.append("- Support Vector Machine")
     report.append("- Random Forest")
     

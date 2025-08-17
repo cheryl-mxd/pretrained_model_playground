@@ -115,7 +115,6 @@ tfidf_matrix, vectorizer, _ = preprocessor.create_tfidf_features(features_df)
 
 **Models Implemented:**
 - ✅ Logistic Regression
-- ✅ Multinomial Naive Bayes  
 - ✅ Support Vector Machine
 - ✅ Random Forest
 
@@ -164,7 +163,6 @@ results = bert_classifier.detailed_evaluation(val_loader, val_labels)
 | Logistic Regression | ~0.94 | ~0.94 | ~0.94 | ~0.94 |
 | Random Forest | ~0.93 | ~0.93 | ~0.93 | ~0.93 |
 | SVM | ~0.92 | ~0.92 | ~0.92 | ~0.92 |
-| Naive Bayes | ~0.90 | ~0.90 | ~0.90 | ~0.90 |
 
 ### BERT Model Performance
 - **Accuracy**: ~0.96-0.98
